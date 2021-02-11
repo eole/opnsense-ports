@@ -18,6 +18,7 @@ SUBDIR += devel
 SUBDIR += dns
 SUBDIR += editors
 SUBDIR += emulators
+SUBDIR += eole
 SUBDIR += finance
 SUBDIR += french
 SUBDIR += ftp

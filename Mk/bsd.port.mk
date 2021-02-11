@@ -2683,6 +2683,9 @@ VALID_CATEGORIES+= accessibility afterstep arabic archivers astro audio \
 # HardenedBSD-related categories
 VALID_CATEGORIES+=	hardenedbsd
 
+# EOLE categories
+VALID_CATEGORIES+=	eole
+
 check-categories:
 .for cat in ${CATEGORIES}
 .	if empty(VALID_CATEGORIES:M${cat})
